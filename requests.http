@@ -1,0 +1,28 @@
+### Get All
+GET http://localhost:3000/api/v1/students/
+
+### Get Single Data
+GET http://localhost:3000/api/v1/students/1
+
+### create student
+POST http://localhost:3000/api/v1/students
+Content-Type: application/json
+
+{
+    "name": "zech",
+    "email": "kirubel1113@gmail.com",
+    "age": 26,
+    "dob": "1996-10-02"
+}
+
+### delete students
+DELETE http://localhost:3000/api/v1/students/15
+
+### update Student
+
+PUT  http://localhost:3000/api/v1/students/14
+Content-Type: application/json
+
+{
+    "name": "Dani"
+}
